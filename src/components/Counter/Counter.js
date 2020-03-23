@@ -6,7 +6,7 @@ function Counter(props) {
     return (
         <div>
             <h1>
-                TEST
+                WELCOME
             </h1>
             <p>Counter: {props.count}</p>
             <button onClick={props.increment}>Increment</button>
