@@ -8,6 +8,9 @@ class App extends Component {
     return (
       <div className="App">
         <Counter store={store} />
+        <p>HIHI</p>
+        <Counter store={store} />
+        <h1>Yo</h1>
        < div>
        <p>Hello!</p>
 
