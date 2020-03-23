@@ -11,6 +11,9 @@ class App extends Component {
         <p>HIHI</p>
         <Counter store={store} />
         <h1>Yo</h1>
+        <Counter store={store} />
+        <Counter store={store} />
+        <Counter store={store} />
        < div>
        <p>Hello!</p>
 
