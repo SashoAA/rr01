@@ -15,3 +15,22 @@ ReactDOM.render(
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
+
+window.onload = function () {
+  changeColor(document.getElementsByClassName("button-basic"), "#fcba03")
+
+
+}
+
+function changeColor(elements, color) {
+  if (elements) {
+    for (var i = 0; i < elements.length; i++) {
+      elements[i].addEventListener("mouseenter", function(event){
+        event.target.classList.add("hover");
+      });
+      elements[i].addEventListener("mouseout", function(event){
+        event.target.classList.remove("hover");
+      });
+    }
+  }
+}

@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.button-basic {
+  min-width: 160px;
+  min-height: 40px;
+  padding: 10px;
+  border: blueviolet;
+  font-size: 16px;
+  background: antiquewhite;
+}
+
+.hover {
+  background-color: rgb(238, 176, 96);
+}

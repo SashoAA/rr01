@@ -9,7 +9,7 @@ function Counter(props) {
                 WELCOME
             </h1>
             <p>Counter: {props.count}</p>
-            <button onClick={props.increment}>Increment</button>
+            <button className="button-basic" onClick={props.increment}>Increment</button>
         </div>
     )
 }
